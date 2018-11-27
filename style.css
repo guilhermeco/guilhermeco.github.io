@@ -1,0 +1,102 @@
+.myHeader {
+  background-color: #CCCCCC;
+  position: relative;
+}
+
+.headerNav {
+  padding-right: 20px;
+  padding-top: 20px;
+  font-family: 'Varela Round', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: -100px;
+  z-index: 1;
+  position: relative;
+
+}
+
+.headerImg{
+  z-index:-1;
+}
+
+.nav-link{
+  color: #ffffff;
+}
+
+.nav-link:hover{
+  color: #F492BB;
+}
+
+.myIntro{
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.myHello{
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.btn-outline-light:hover{
+  background-color: #F492BB;
+  border-color: #F492BB;
+
+}
+
+.myProjects{
+  background-color: #CCCCCC;
+
+}
+
+.projectName{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  color: #F492BB;
+}
+
+.projectDesc{
+  font-family: 'Open Sans';
+  font-size:16px;
+  color: white;
+
+}
+
+.badge-primary{
+  background-color: #F492BB;
+}
+
+.myFooter{
+
+}
+
+.footerTitle{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  color: #F492BB;
+
+}
+
+.footerDesc{
+  font-family: 'Open Sans';
+  font-size:16px;
+  color: black;
+}
+
+.btn-pink{
+  border-color: #F492BB;
+  color: #F492BB;
+}
+
+.btn-pink:hover{
+  background-color: #F492BB;
+  border-color: #F492BB;
+}
