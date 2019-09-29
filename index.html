@@ -1,79 +1,97 @@
-<!doctype html>
-<html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Guilherme Coelho</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="media-query.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.min.css">
+  <script src="script.js"></script>
 </head>
-
 <body>
 
-  <div class="myHeader">
-    <ul class="headerNav nav justify-content-end fixed-top" style="z-index:100">
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" href="#projects">My Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#footeranchor">Contact</a>
-      </li>
-    </ul>
-    <img src="files/imageheader.png" class="img-fluid headerImg" alt="">
-  </div>
+<div class="container">
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="#" class="home-nav"></a>
+    <a href="#" class="about-me">About me</a>
+    <div href="#" class="img-placeholder"></div>
+    <div href="#" class="img-placeholder"></div>
+    <div href="#" class="img-placeholder"></div>
+  </nav>
+  <div class="column">
+    <section id="header">
+      <header>
+        <div href="#" class="img-placeholder mobile-menu" onclick="openMenu()"></div>
+        <nav class="main-nav">
+          <a href="#" class="home-nav"></a>
+          <a href="#" class="about-me">About me</a>
+          <div href="#" class="img-placeholder"></div>
+          <div href="#" class="img-placeholder"></div>
+          <div href="#" class="img-placeholder"></div>
+        </nav>
+      </header>
+    </section>
 
-  <div class="myIntro position-relative overflow-hidden p-3 p-md-5 text-center">
-    <div class="col-md-8 mx-auto">
-      <p class="myHello">Hello,</p>
-      <p class="">My name is Guilherme Coelho, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. </p>
-      <a style="margin-top:30px; margin-bottom:20px;" class="btn btn-outline-light" href="#footeranchor">Let's Chat</a>
-    </div>
+    <section id=content>
+      <div class="double-line"></div>
+      <div class="double-line"></div>
+      <div class="intro">
+        <h1><span>Designer</span> with a passion for technology, turning chaos into organization and making people’s life easier. </h1>
+      </div>
+      <div class="project-container">
+        <div class="project-image">
 
-  </div>
+        </div>
+        <div class="project-description">
+          <div class="project-info">
+            <h2>Project Title</h2>
+            <p>Project Description</p>
+          </div>
+            <a href="#" class="primary-btn">View Project</a>
 
-  <div class="myProjects container-fluid" id="projects">
-    <div class="row justify-content-center">
-      <div class="col-sm-6">
-        <img src="files/example1.png" style="width:100%;" alt="">
+        </div>
       </div>
 
-      <div style="margin-left: -80px;" class="col-sm-4 align-self-center">
-        <p class="projectName">Nome do Projeto</p>
-        <p class="projectDesc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-        <span class="badge badge-primary">Illustration</span> <span class="badge badge-primary">Interface</span>
+      <div class="project-container">
+        <div class="project-image">
 
+        </div>
+        <div class="project-description">
+          <div class="project-info">
+            <h2>Project Title</h2>
+            <p>Project Description</p>
+          </div>
+            <a href="#" class="primary-btn">View Project</a>
+
+        </div>
       </div>
 
-    </div>
+      <div class="project-container">
+        <div class="project-image">
 
+        </div>
+        <div class="project-description">
+          <div class="project-info">
+            <h2>Project Title</h2>
+            <p>Project Description</p>
+          </div>
+            <a href="#" class="primary-btn">View Project</a>
+
+        </div>
+      </div>
+    </section>
+
+<footer>
+  <div class="double-line self-center m-top80"></div>
+  <div class="double-line self-center m-bot40"></div>
+  <h3>Let's talk!</h3>
+  <p>Maybe I can help!</p>
+  <div class="footer-icons">
+    <div href="#" class="img-placeholder"></div>
+    <div href="#" class="img-placeholder"></div>
+  </div>
+  <div class="double-line self-center m-top40"></div>
+  <div class="double-line self-center"></div>
+</footer>
 
   </div>
-
-  <div class="myFooter position-relative overflow-hidden p-3 p-md-5 text-center" id="footeranchor">
-    <p class="footerTitle">Talk to me!</p>
-    <p class="footerDesc">Let's grab a coffee sometime!</p>
-    <button style="margin-top:30px; margin-bottom:20px;" type="button" class="btn btn-outline-dark btn-pink">E-Mail</button>
-    <button style="margin-top:30px; margin-bottom:20px;" type="button" class="btn btn-outline-dark btn-pink">LinkedIn</button>
-
-  </div>
-
-
-
+</div>
 
 </body>
-
-</html>

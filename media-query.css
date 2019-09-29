@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+  .column {
+    width: 90% !important; }
+
+  .main-nav {
+    display: none !important; }
+
+  .mobile-menu {
+    display: flex !important;
+    position: fixed;
+    top: 50px; }
+
+  .double-line {
+    align-self: center; }
+
+  #content .intro {
+    width: 100% !important; }
+  #content h1 {
+    width: 100% !important; }
+  #content .project-description {
+    width: 80% !important;
+    flex-direction: column !important;
+    align-items: stretch !important; }
+  #content .project-image {
+    width: 100% !important;
+    height: 200px !important; }
+  #content .primary-btn {
+    margin-top: 20px;
+    text-align: center; } }
+
+/*# sourceMappingURL=media-query.css.map */
