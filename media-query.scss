@@ -19,11 +19,17 @@
   }
 
   #content {
+    margin-top:120px !important;
+
     .intro{
-     width: 100% !important;
+     width: 90% !important;
+     align-self: center;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
     }
 
-    h1{
+    p{
       width: 100% !important;
     }
 
@@ -31,6 +37,21 @@
       width: 80% !important;
       flex-direction: column !important;
       align-items: stretch !important;
+
+      p{
+        font-size: 12px !important;
+      }
+    }
+
+    .mobile-btn{
+      display: block !important;
+      text-align: center !important;
+      width:100%;
+      box-sizing: border-box;
+    }
+
+    .hide-mobile{
+      display: none !important;
     }
 
     .project-image{
@@ -39,8 +60,16 @@
     }
 
     .primary-btn{
-      margin-top:20px;
+      margin-top: 20px;
       text-align: center;
+    }
+
+    .experience-container{
+      width:90% !important;
+
+      h2{
+        text-align: center;
+      }
     }
 
   }

@@ -13,19 +13,38 @@
   .double-line {
     align-self: center; }
 
-  #content .intro {
-    width: 100% !important; }
-  #content h1 {
-    width: 100% !important; }
-  #content .project-description {
-    width: 80% !important;
-    flex-direction: column !important;
-    align-items: stretch !important; }
-  #content .project-image {
-    width: 100% !important;
-    height: 200px !important; }
-  #content .primary-btn {
-    margin-top: 20px;
-    text-align: center; } }
+  #content {
+    margin-top: 120px !important; }
+    #content .intro {
+      width: 90% !important;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+    #content p {
+      width: 100% !important; }
+    #content .project-description {
+      width: 80% !important;
+      flex-direction: column !important;
+      align-items: stretch !important; }
+      #content .project-description p {
+        font-size: 12px !important; }
+    #content .mobile-btn {
+      display: block !important;
+      text-align: center !important;
+      width: 100%;
+      box-sizing: border-box; }
+    #content .hide-mobile {
+      display: none !important; }
+    #content .project-image {
+      width: 100% !important;
+      height: 200px !important; }
+    #content .primary-btn {
+      margin-top: 20px;
+      text-align: center; }
+    #content .experience-container {
+      width: 90% !important; }
+      #content .experience-container h2 {
+        text-align: center; } }
 
 /*# sourceMappingURL=media-query.css.map */

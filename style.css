@@ -46,19 +46,25 @@ section {
 .main-nav {
   flex-direction: row; }
 
+.footer-nav {
+  margin: 20px 0px 0px; }
+  .footer-nav a {
+    margin: 20px 10px 0px; }
+
 nav a, nav div {
   font-family: 'Rubik', sans-serif;
-  color: white;
+  color: #FFF5F5;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
   margin: 0px 20px;
   transition: margin 1s ease-in-out, border-radius 1s ease-in-out;
-  box-shadow: 0px 3px 5px #000000;
-  text-shadow: 0px 3px 5px #000000; }
+  text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2); }
 nav a:hover {
   color: #FB136D;
   transition: all 0.5s ease-in-out; }
+nav .menu-item {
+  width: 24px; }
 nav :first-child {
   margin-left: 0px; }
 nav :last-child {
@@ -72,25 +78,18 @@ nav :last-child {
   justify-content: center;
   align-items: center; }
 
-.img-placeholder {
-  height: 24px;
-  width: 24px;
-  border-radius: 99px;
-  background-color: white; }
-
 .home-nav {
   background-color: #FB136D;
   border-radius: 0px;
   width: 48px;
   height: 48px;
-  transition: all 1s ease-in-out; }
-
-.about-me {
-  box-shadow: none; }
+  transition: all 1s ease-in-out;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); }
 
 .home-nav:hover {
   transform: rotate(90deg);
-  border-radius: 15px; }
+  border-radius: 15px;
+  background-color: #e01564; }
 
 .primary-btn {
   background-color: #FB136D;
@@ -108,13 +107,16 @@ nav :last-child {
   border-bottom: 2px solid #FB136D;
   width: 200px;
   margin: 3px 0px;
-  box-shadow: 0px 3px 5px #000000; }
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); }
 
 .self-center {
   align-self: center; }
 
 .m-top40 {
-  margin-top: 40px; }
+  margin-top: 40px !important; }
+
+.m-top20 {
+  margin-top: 20px !important; }
 
 .m-top80 {
   margin-top: 80px; }
@@ -126,15 +128,20 @@ nav :last-child {
   margin-top: 150px;
   display: flex;
   flex-direction: column; }
-  #content h1 {
-    width: 50%;
-    font-size: 21px;
-    font-weight: normal; }
-  #content h1 span {
-    font-weight: bold;
-    font-family: 'Rubik', sans-serif; }
   #content .intro {
     margin-top: 40px; }
+    #content .intro h1 {
+      font-size: 32px;
+      color: #FB136D;
+      font-family: "Rubik", sans-serif; }
+    #content .intro p {
+      width: 50%;
+      font-size: 16px;
+      font-weight: normal;
+      margin-bottom: 40px; }
+    #content .intro p span {
+      font-weight: bold;
+      font-family: 'Rubik', sans-serif; }
   #content .project-container {
     display: flex;
     flex-direction: column;
@@ -142,28 +149,60 @@ nav :last-child {
     justify-content: center;
     align-items: center;
     margin: 40px 0px 0px; }
+  #content .experience-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-self: center;
+    margin: 80px 0px 0px; }
+    #content .experience-container h2 {
+      color: #FB136D; }
+    #content .experience-container h3 {
+      font-size: 21px;
+      margin: 0px;
+      font-family: "Rubik", sans-serif; }
+    #content .experience-container h4 {
+      font-size: 18px;
+      margin: 20px 0px 0px; }
+    #content .experience-container h5 {
+      margin: 20px 0px;
+      font-size: 14px;
+      color: #FB136D; }
+    #content .experience-container p {
+      margin: 0px; }
+    #content .experience-container .experience-info {
+      margin: 40px 0px 20px; }
   #content .project-image {
     background-color: white;
     width: 80%;
     height: 300px;
     justify-content: center;
-    box-shadow: 0px 1px 2px #000000; }
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); }
   #content .project-description {
     width: 70%;
     margin-top: -40px;
     padding: 20px;
     background-color: #361652;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 1px 2px #000000; }
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); }
     #content .project-description h2 {
       margin: 0px;
       font-family: 'Rubik', sans-serif; }
     #content .project-description p {
-      font-size: 12px;
+      font-size: 16px;
       margin: 0px; }
+  #content .project-info {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; }
+  #content .mobile-btn {
+    display: none; }
 
 footer {
   display: flex;
